@@ -1,0 +1,6 @@
+    int a, b, res;
+    scanf("%d %d", &a, &b);
+    res = a - b;
+    res = res > 0 ? res : res * -1;     \\нативная абс функция без подключения модуля <math.h>
+    
+    
